@@ -1,0 +1,109 @@
+Hi claude, this is where all files are located, and how you should be able to
+find them properly.
+
+C:\myos>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 5AE5-CE85
+
+ Directory of C:\myos
+
+2026-05-08  09:43 AM    <DIR>          .
+2026-05-08  09:43 AM    <DIR>          ..
+2026-05-08  09:34 AM    <DIR>          boot
+2026-05-12  02:30 PM    <DIR>          build
+2026-05-08  10:28 AM             3,964 build.bat
+2026-05-08  09:48 AM               434 ConsoleColourGuide.txt
+2026-05-04  10:57 PM             6,730 esp32_server.py
+2026-05-08  09:34 AM    <DIR>          i686-elf-tools-windows
+2026-05-08  10:17 AM    <DIR>          kernel
+2026-05-01  09:01 PM               248 link.ld
+2026-05-08  09:34 AM    <DIR>          server_files
+2026-05-08  09:34 AM    <DIR>          tools
+2026-05-04  11:50 PM             1,547 Version documentation.txt
+               5 File(s)         12,923 bytes
+               8 Dir(s)  56,520,622,080 bytes free
+
+C:\myos>dir boot
+ Volume in drive C has no label.
+ Volume Serial Number is 5AE5-CE85
+
+ Directory of C:\myos\boot
+
+2026-05-08  09:34 AM    <DIR>          .
+2026-05-08  09:34 AM    <DIR>          ..
+2026-05-01  09:43 PM             1,137 boot.asm
+2026-05-04  10:03 PM             3,858 stage2.asm
+               2 File(s)          4,995 bytes
+               2 Dir(s)  56,520,552,448 bytes free
+
+C:\myos>dir tools
+ Volume in drive C has no label.
+ Volume Serial Number is 5AE5-CE85
+
+ Directory of C:\myos\tools
+
+2026-05-08  09:34 AM    <DIR>          .
+2026-05-08  09:34 AM    <DIR>          ..
+2026-05-04  10:53 PM             6,061 addfiles.py
+2026-05-04  09:53 PM             5,814 mkimage.py
+               2 File(s)         11,875 bytes
+               2 Dir(s)  56,520,552,448 bytes free
+
+C:\myos>dir kernel
+ Volume in drive C has no label.
+ Volume Serial Number is 5AE5-CE85
+
+ Directory of C:\myos\kernel
+
+2026-05-08  10:17 AM    <DIR>          .
+2026-05-08  10:17 AM    <DIR>          ..
+2026-05-12  02:30 PM            16,464 console.c
+2026-05-01  08:45 PM               198 console.h
+2026-05-04  10:06 PM               777 disk.c
+2026-05-01  09:33 PM               224 disk.h
+2026-05-04  03:05 PM            11,279 fat12.c
+2026-05-01  09:33 PM             4,559 fat12.h
+2026-05-01  08:47 PM             1,454 idt.c
+2026-05-01  08:47 PM                58 idt.h
+2026-05-04  10:06 PM             1,222 kernel.c
+2026-05-01  08:47 PM             2,515 keyboard.c
+2026-05-01  08:46 PM                99 keyboard.h
+2026-05-04  10:57 PM             3,281 netfs.c
+2026-05-04  10:57 PM               864 netfs.h
+2026-05-04  02:55 PM             1,279 pic.c
+2026-05-01  08:46 PM                87 pic.h
+2026-05-04  05:46 PM             2,334 serial.c
+2026-05-04  05:46 PM               493 serial.h
+2026-05-01  08:47 PM               513 start.asm
+2026-05-08  10:32 AM               172 time.c
+2026-05-08  10:31 AM                71 time.h
+              20 File(s)         47,943 bytes
+               2 Dir(s)  56,520,486,912 bytes free
+
+C:\myos>dir build
+ Volume in drive C has no label.
+ Volume Serial Number is 5AE5-CE85
+
+ Directory of C:\myos\build
+
+2026-05-12  02:30 PM    <DIR>          .
+2026-05-12  02:30 PM    <DIR>          ..
+2026-05-12  02:30 PM               512 boot.bin
+2026-05-12  02:30 PM            12,292 console.o
+2026-05-12  02:30 PM               616 disk.o
+2026-05-12  02:30 PM             2,920 fat12.o
+2026-05-12  02:30 PM               980 idt.o
+2026-05-12  02:30 PM            11,797 kernel.bin
+2026-05-12  02:30 PM             1,576 kernel.o
+2026-05-12  02:30 PM             2,512 keyboard.o
+2026-05-12  02:30 PM         1,494,016 myos.img
+2026-05-12  02:30 PM             1,668 netfs.o
+2026-05-12  02:30 PM               732 pic.o
+2026-05-12  02:30 PM               908 serial.o
+2026-05-12  02:30 PM             2,048 stage2.bin
+2026-05-12  02:30 PM               624 start.o
+2026-05-12  02:30 PM               804 time.o
+              15 File(s)      1,534,005 bytes
+               2 Dir(s)  56,520,159,232 bytes free
+
+C:\myos>

@@ -1,0 +1,26 @@
+VGA Color Table
+Hex	Color
+0	Black
+1	Blue
+2	Green
+3	Cyan
+4	Red
+5	Magenta
+6	Brown
+7	Light Gray
+8	Dark Gray
+9	Light Blue
+A	Light Green
+B	Light Cyan
+C	Light Red
+D	Light Magenta
+E	Yellow
+F	White
+
+Add new colours at the top of console.c using #define COLOUR_XXXXX 0x0A
+change the 3rd character 0x0A
+                           /\
+the zero.
+and when a colour is called, use that colour name.
+
+for black, just use: 0x0
