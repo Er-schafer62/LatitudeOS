@@ -1,3 +1,0 @@
-MyOS Network Filesystem
-Protocol: GET <filename> over UART 9600 8N1
-Transport: TCP socket via QEMU -serial

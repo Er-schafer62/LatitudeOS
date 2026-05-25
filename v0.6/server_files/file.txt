@@ -1,2 +1,0 @@
-write filethis is a file, will the ESP32 disconnect?
-
